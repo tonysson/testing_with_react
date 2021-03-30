@@ -62,7 +62,7 @@ describe('if there are words guessed' , () => {
      test('renders without error' , () => {
        const component = findByTestAttr(wrapper , 'component-guessed-words')
        expect(component.length).toBe(1)
-    })
+     })
 
     test('renders guessed words section' , () => {
         const guessedWordsNode = findByTestAttr(wrapper , "guessed-words")
